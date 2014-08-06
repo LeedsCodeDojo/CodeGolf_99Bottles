@@ -1,0 +1,1 @@
+class P{static void Main(){int j=99;while(j>0)System.Console.Write(j<2?"{0}{2}{1}{3}, {0}{2}{1}.\nGo to the store store and buy some more, 99{2}s{1}{3}.":"{0}{2}s{1}{3}, {0}{2}s{1}.\nTake one down and pass it around, {4}{2}{5}{3}."+"\n\n",j--," of beer"," bottle"," on the wall",j,j>1?"s":"");}}
