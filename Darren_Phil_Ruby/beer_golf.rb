@@ -1,0 +1,1 @@
+x="bottles of beer";y=" on the wall";99.downto(2){|b|puts"#{b} #{x+y}, #{b} #{x+y}.";puts"Take one down and pass it around, #{b-1} #{b==2?x.sub('es','e'):x}#{y}.\n\n";};z=x.b;z[6]="";puts"1 #{z+y}, 1 #{z}.";puts"Go to the store and buy some more, 99 #{x+y}."
